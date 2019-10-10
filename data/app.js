@@ -248,7 +248,7 @@ fMgr.controller("ListCtr", function($scope, $http, $location,
                 document.getElementById('file_upload_unzip').removeEventListener('change', uploadFilesUnZip);
                 document.getElementById("file_upload_unzip").value = "";
                 Flash.success("File uploaded and unzip")
-                get_data()//ÉÏ´«³É¹¦ºóÖØÐÂ»ñÈ¡Êý¾ÝÁÐ±í
+                get_data()//¿¿¿¿¿¿¿¿¿¿¿¿¿
              };
 
              xhr.onerror = function(e) {
