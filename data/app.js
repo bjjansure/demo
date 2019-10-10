@@ -392,7 +392,7 @@ fMgr.controller("ListCtr", function($scope, $http, $location,
         var res = confirm("Are you sure?")
         if(res) {
             ServerCommand.get({
-                action: 'delete',
+                action: 'delete_file',
                 paramslist: [$scope.Path + item]
             }, "File deleted!", get_data)
         }
@@ -408,7 +408,7 @@ fMgr.controller("ListCtr", function($scope, $http, $location,
         })
 
         ServerCommand.get({
-            action: 'delete',
+            action: 'delete_file',
             paramslist: items
         }, "Files deleted!", get_data)
     }
